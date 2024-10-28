@@ -16,7 +16,7 @@ public class ExpenseTracker {
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
-            scanner.nextLine();  // Clear the newline
+            scanner.nextLine();  
 
             switch (choice) {
                 case 1:
